@@ -102,6 +102,11 @@ onUnmounted(() => {
             </div>
           </div>
         </div>
+
+        <div v-if="isPending" class="col-span-3 flex justify-center items-center h-40">
+          <div class="size-16 border-4 rounded-full border-gray-300 border-t-blue-600 animate-spin"></div>
+        </div>
+
       </div>
     </div>
   </div>
